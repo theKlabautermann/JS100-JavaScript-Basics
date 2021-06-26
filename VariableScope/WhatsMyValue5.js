@@ -1,5 +1,8 @@
-//Expected output: Error. a is already declared.
-//We could resolve this bug by re-assigning a's value (instead of declaring a again.)
+/*
+Expected output:
+Since we declare a again inside the block, the declaration on the global scope is ignored.
+Since we declare it only after trying to log it to the console, an error occurs.
+*/
 
 function myFunction() {
   let a = 1;

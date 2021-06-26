@@ -1,4 +1,4 @@
-//Expected Output: Error. You have to declare the variable before using it.
+//Expected Output: Undefined. Since greeting is declared using var, The declaration is hoisted to the top.
 
 console.log(greeting);
 

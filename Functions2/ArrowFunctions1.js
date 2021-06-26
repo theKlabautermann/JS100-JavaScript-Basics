@@ -1,7 +1,7 @@
 const template = 'I VERB NOUN.';
 
-let sentence = (verb, noun) => {
-  return template
+sentence = (verb, noun) => {
+  template
     .replace('VERB', verb)
     .replace('NOUN', noun);
 }

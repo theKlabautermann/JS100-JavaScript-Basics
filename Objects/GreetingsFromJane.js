@@ -7,7 +7,7 @@ let jane = {
     city: 'Aarhus'
   },
   occupation: 'engineer',
-  greet: (name) => console.log(`Hej, ${name}`), 
+  greet: (name) => console.log(`Hej, ${name}!`), 
 };
 
 jane.greet('Bobby');

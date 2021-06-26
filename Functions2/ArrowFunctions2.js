@@ -1,5 +1,5 @@
-let initGame = () => {
-  return {
+initGame = () => {
+  {
     level: 1,
     score: 0
   }

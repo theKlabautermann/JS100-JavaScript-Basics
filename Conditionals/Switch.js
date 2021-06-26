@@ -13,4 +13,9 @@ switch (animal) {
     console.log('*cricket*');
 }
 
-//Should log "neigh" to the console since animal is initialized with "horse".
+/*
+Since we don't have break statements, a fall-through will occur:
+neigh
+tweet tweet
+*cricket*
+*/

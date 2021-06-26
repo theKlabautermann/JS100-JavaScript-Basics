@@ -1,15 +1,5 @@
 /*
-Expected Output:
-3 / 1 = 3
-6 / 2 = 3
-9 / 3 = 3
-12 / 4 = 3
-15 / 5 = 3
-18 / 6 = 3
-21 / 7 = 3
-24 / 8 = 3
-27 / 9 = 3
-30 / 10 = 3
+Since we don't call our function correctly (the parantheses are missing) nothing will be logged to the console.
 */
 
 function multiplesOfThree() {
@@ -21,4 +11,4 @@ function multiplesOfThree() {
   }
 }
 
-multiplesOfThree();
+multiplesOfThree;
